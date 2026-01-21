@@ -1,18 +1,4 @@
-/**
- * Net Pay Calculator
- *
- * Personal implementation for Introduction to Programming II (COS 211). Sophomore year,
- * Cybersecurity program.
- *
- * This program reads three floating-point values from standard input, performs payroll
- * calculations, and prints formatted results to standard output.
- *
- * Design: Single class, single method. No abstraction layers. Reason: The problem is small and
- * self-contained. Extra classes would add complexity without benefit. Code should be obvious and
- * maintainable.
- *
- * Author: Miracle Omokaro GitHub: @M1racleScr1pt Date: January 2026 JDK: 25
- */
+
 import java.util.Scanner; // import keyword: tells the compiler to include definitions from another
                           // package.
                           // java: the core Java platform package.
@@ -26,7 +12,6 @@ import java.util.Scanner; // import keyword: tells the compiler to include defin
 
 public class NetPayCalculator { // public class NetPayCalculator { : Class declaration - defines a
                                 // new class.
-
     // public: This is an access modifier. It tells the compiler that this class can be seen
     // and used by any other part of the program, or even by external tools like the
     // Java Virtual Machine - a core component that runs Java programs by translating
@@ -44,9 +29,9 @@ public class NetPayCalculator { // public class NetPayCalculator { : Class decla
     // elements for creating
     // objects that encapsulate data and behavior.
 
-    // NetPayCalculator: This is simply the name of your class, specifically called an identifier,
-    // chosen by the programmer, which in this case, is NetPayCalculator.
-    // By convention, it is usually named Main if it holds the starting point of the program.
+    // NetPayCalculator:grammer, which in this case, is NetPayCalculator.
+    // By convention, it This is simply the name of your class, specifically called an identifier,
+    // chosen by the pro is usually named Main if it holds the starting point of the program.
     // It should start with an uppercase letter and use CamelCase for readability.
     // it must match the filename (NetPayCalculator.java) exactly, including case sensitivity.
 
@@ -125,7 +110,7 @@ public class NetPayCalculator { // public class NetPayCalculator { : Class decla
                                                                                     // ensures clean
                                                                                     // whole number
                                                                                     // display
-        System.out.printf("Net Pay   : $%,.2f%n", netPay);
+        System.out.printf("Net Pay   : $    %,.2f%n", netPay);
 
         input.close(); // Instance method call.
                        // Closes the underlying InputStream and releases system resources.
