@@ -48,7 +48,7 @@ For full setup: [How to Use the Console Application](./User_Guide.md)
 ## Dive Deeper 📚
 - [Technical Documentation](./TechnicalDocumentation.md) – Pseudocode, flowchart, code breakdown, and more.
 - [Source Code](./Net-Pay-Calculator-Java-Project/NetPayCalculator.java) – The heart of the project. 
-- [If you want to understand the code better see Fully Commented Source Code](./Net-Pay-Calculator-Java-Project/NetPayCalculator.java) – The heart of the project.
+- If you want to understand the code better see - [Fully Commented Source Code](./Net-Pay-Calculator-Java-Project/NetPayCalculator.java)
 
 Questions? Open an issue or reach out!
 
