@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class NetPayCalculator {
+public class EmployeeNetPayCalculator {
 
     public static void main(String[] args) {
 

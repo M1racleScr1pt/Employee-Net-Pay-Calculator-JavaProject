@@ -4,7 +4,7 @@ If you haven't cloned it yet, follow these steps (assuming Git is installed on y
 1. Open VS Code.
 2. Open a terminal in VS Code (View > Terminal or Ctrl+`).
 3. Navigate to the folder where you want to store the project (e.g., `cd Documents/Projects`).
-4. Run: `git clone <repository-url>` (replace `<repository-url>` with your GitHub repo link, e.g., `https://github.com/yourusername/NetPayCalculator.git`).
+4. Run: `git clone <https://github.com/yourusername/NetPayCalculator.git>`(https://github.com/M1racleScr1pt/Employee-Net-Pay-Calculator-JavaProject.git)).
 5. Once cloned, open the folder in VS Code (File > Open Folder > select the cloned folder).
 6. Now you can create/edit files like README.md right there.
 

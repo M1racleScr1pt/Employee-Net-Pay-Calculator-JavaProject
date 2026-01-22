@@ -12,7 +12,7 @@ We're a passionate group tackling payroll basics. Here's our squad:
 - **Leader: Omokaro Miracle** - Project coordination, algorithm design.
 - **Member 1: Ejomafuvwwe JokpeOghene Fidelis** - Input handling expert.
 - **Member 2: Chinedum Bethel Iluoma** - Logic and calculations guru.
-- **Member 3: Christopher Julius Onyeckachuckwu** - Output formatting pro.
+- **Member 3: Christopher Julius Onyeckachuckwu** - Output formatting professional.
 - **Member 3: Okonmah Victor** - Output formatting pro.
 - **Member 3: AKpododama Desmond** - Output formatting pro.
 - **Member 3: Odih Prosper Ifechukwude** - Output formatting pro.
@@ -47,7 +47,8 @@ For full setup: [How to Use the Console Application](./User_Guide.md)
 
 ## Dive Deeper 📚
 - [Technical Documentation](./TechnicalDocumentation.md) – Pseudocode, flowchart, code breakdown, and more.
-- [Source Code](./Net-Pay-Calculator-Java-Project/NetPayCalculator.java) – The heart of the project.
+- [Source Code](./Net-Pay-Calculator-Java-Project/NetPayCalculator.java) – The heart of the project. 
+- [If you want to understand the code better see Fully Commented Source Code](./Net-Pay-Calculator-Java-Project/NetPayCalculator.java) – The heart of the project.
 
 Questions? Open an issue or reach out!
 
