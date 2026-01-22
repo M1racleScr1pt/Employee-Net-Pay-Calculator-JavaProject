@@ -17,7 +17,7 @@ If you're unsure about your Java installation, open your terminal/command prompt
 Before running the app, you need to obtain and prepare the files. This can be done in two ways: compiling from source (for developers) or running a pre-compiled JAR (easier for most users).
 
 ### 1.1 Downloading the Files
-1. Go to the GitHub repository: [
+1. Go to the GitHub repository: https://github.com/M1racleScr1pt/Employee-Net-Pay-Calculator-JavaProject.git
 2. Click the "Code" button and select "Download ZIP".
 3. Extract the ZIP file to a folder on your computer (e.g., `C:\NetPayCalculator` on Windows or `~/NetPayCalculator` on macOS/Linux).
 
@@ -141,4 +141,4 @@ If something goes wrong, try these fixes:
 ## Conclusion
 That's it! This app makes net pay calculations quick and error-free. For advanced features or issues, refer to the [Technical Documentation](./TechnicalDocumentation.md) or the GitHub repo. If you have feedback, feel free to reach out.
 
-This guide was last updated on ![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/your-repo?label=&color=brightgreen&style=flat-square)
+This guide was last updated on ![GitHub last commit](https://img.shields.io/github/last-commit/M1racleScr1pt/Employee-Net-Pay-Calculator-JavaProject.git?label=&color=brightgreen&style=flat-square)
