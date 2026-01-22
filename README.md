@@ -32,8 +32,8 @@ Watch the app in action – from input to formatted output!
 You can find the code at [NetPayCalculator.java](NetPayCalculator.java).
 
 ### Short Steps to Run It
-1. Clone the repo: `git clone https://github.com/yourusername/your-repo.git`
-2. Navigate to the folder: `cd your-repo`
+1. Clone the repo: `git clone https://github.com/M1racleScr1pt/Employee-Net-Pay-Calculator-JavaProject.git`
+2. Navigate to the folder: `cd NetPayCalculator`
 3. Compile: `javac NetPayCalculator.java`
 4. Run: `java NetPayCalculator`
 5. Follow the prompts for inputs.
