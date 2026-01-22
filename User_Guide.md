@@ -17,7 +17,7 @@ If you're unsure about your Java installation, open your terminal/command prompt
 Before running the app, you need to obtain and prepare the files. This can be done in two ways: compiling from source (for developers) or running a pre-compiled JAR (easier for most users).
 
 ### 1.1 Downloading the Files
-1. Go to the GitHub repository: [https://github.com/M1racleScr1pt/Net-Pay-Calculator-Java-Project.git](https://github.com/M1racleScr1pt/Net-Pay-Calculator-Java-Project.git)
+1. Go to the GitHub repository: [
 2. Click the "Code" button and select "Download ZIP".
 3. Extract the ZIP file to a folder on your computer (e.g., `C:\NetPayCalculator` on Windows or `~/NetPayCalculator` on macOS/Linux).
 

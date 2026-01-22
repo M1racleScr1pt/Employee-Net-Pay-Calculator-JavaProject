@@ -1,14 +1,3 @@
-```markdown
-No, renaming a .md file to .pdf in VS Code (or anywhere else) won't convert it to a proper PDF—it'll just change the file extension, making the file unreadable as a PDF because the content is still in Markdown format. To create a real PDF, you'll need to export or convert the .md file using a tool like:
-
-- Microsoft Word or Google Docs: Open the .md file, format it if needed, then save/export as PDF.
-- Online converters: Use sites like pandoc.org (install Pandoc locally) or md-to-pdf.github.io for quick conversions.
-- VS Code extensions: Install "Markdown PDF" or "Markdown All in One" from the VS Code marketplace—they let you export .md to PDF directly from the editor (right-click the file > Export to PDF).
-
-This ensures the PDF renders with proper headings, code blocks, and formatting.
-
-Now, let's get started on the process as you requested. Since you already have the code in a repository (assuming it's on GitHub), cloning it to your local system is a great first step to work on everything in VS Code. I'll guide you through that, then provide a very detailed version of the Technical Documentation based on the outline we discussed earlier. You can copy-paste this into a new README.md file in your cloned repo, customize it further (e.g., add specifics from your Java code), and then convert to PDF when ready.
-
 ### Step 1: Cloning the Repository to Your System
 If you haven't cloned it yet, follow these steps (assuming Git is installed on your machine—download from git-scm.com if not):
 
@@ -52,29 +41,29 @@ In many small-scale payroll scenarios, manual calculations of net pay can be err
 The program's logic is straightforward and sequential, divided into input, processing, and output phases for clarity. Below is the pseudocode with inline comments for enhanced readability:
 
 ```
-// Declare variables to hold user inputs and calculated values (all as double for precision)
-DECLARE hoursWorked, hourlyWage, taxRate, grossPay, taxDeduction, netPay as double
+    // Declare variables to hold user inputs and calculated values (all as double for precision)
+    DECLARE hoursWorked, hourlyWage, taxRate, grossPay, taxDeduction, netPay as double
 
-// Input Phase: Gather data from the user via console prompts
-PROMPT "Enter the number of hours worked: "
-INPUT hoursWorked
-PROMPT "Enter the hourly wage: "
-INPUT hourlyWage
-PROMPT "Enter the tax rate (as a decimal, e.g., 0.15 for 15%): "
-INPUT taxRate
+    // Input Phase: Gather data from the user via console prompts
+    PROMPT "Enter the number of hours worked: "
+    INPUT hoursWorked
+    PROMPT "Enter the hourly wage: "
+    INPUT hourlyWage
+    PROMPT "Enter the tax rate (as a decimal, e.g., 0.15 for 15%): "
+    INPUT taxRate
 
-// Processing Phase: Perform calculations using basic arithmetic
-CALCULATE grossPay = hoursWorked * hourlyWage  // Total earnings before deductions
-CALCULATE taxDeduction = grossPay * taxRate    // Amount deducted for taxes
-CALCULATE netPay = grossPay - taxDeduction     // Final take-home pay
+    // Processing Phase: Perform calculations using basic arithmetic
+    CALCULATE grossPay = hoursWorked * hourlyWage  // Total earnings before deductions
+    CALCULATE taxDeduction = grossPay * taxRate    // Amount deducted for taxes
+    CALCULATE netPay = grossPay - taxDeduction     // Final take-home pay
 
-// Output Phase: Display results in a formatted, user-friendly way
-DISPLAY "Gross Pay: $" + formatted(grossPay, 2 decimals)
-DISPLAY "Tax Deduction: $" + formatted(taxDeduction, 2 decimals)
-DISPLAY "Final Net Pay: $" + formatted(netPay, 2 decimals)
+    // Output Phase: Display results in a formatted, user-friendly way
+    DISPLAY "Gross Pay: $" + formatted(grossPay, 2 decimals)
+    DISPLAY "Tax Deduction: $" + formatted(taxDeduction, 2 decimals)
+    DISPLAY "Final Net Pay: $" + formatted(netPay, 2 decimals)
 
-// End of program
-END
+    // End of program
+    END
 ```
 
 This algorithm ensures a linear flow with no conditional branches, making it simple to implement and debug. Time complexity is O(1) as operations are constant.
@@ -92,22 +81,8 @@ No external libraries or classes are used beyond Java's standard API, keeping th
 ### 3.2 Flowchart
 A visual representation of the program flow is provided in the accompanying diagram file (`NetPayFlowchart.png`). To generate or view it, use PlantUML with the following syntax (save as .puml and render via plantuml.com or a VS Code extension):
 
-```
-    @startuml
-    start
-    :Declare variables (hoursWorked, hourlyWage, taxRate, grossPay, taxDeduction, netPay);
-    :Prompt and Input hoursWorked;
-    :Prompt and Input hourlyWage;
-    :Prompt and Input taxRate;
-    :Calculate grossPay = hoursWorked * hourlyWage;
-    :Calculate taxDeduction = grossPay * taxRate;
-    :Calculate netPay = grossPay - taxDeduction;
-    :Display formatted Gross Pay;
-    :Display formatted Tax Deduction;
-    :Display formatted Net Pay;
-    stop
-    @enduml
-```
+<img src="assets/Flowchart.png" alt="Net Pay Calculator Demo" width="800"/>
+<p align="center"><em><strong>An image showing the flowchart for the Employee Net Pay Calculator Java Project.</strong></em></p>
 
 The flowchart illustrates the sequential steps, with rectangles for processes, parallelograms for inputs/outputs, and no decision diamonds since there are no branches.
 
@@ -167,7 +142,7 @@ The program is contained in a single class file (`NetPayCalculator.java`) with a
 - **No Loops**: Keeps the program simple; could be added for batch processing.
 
 ## 5. User Guide
-For instructions on running this console application, refer to the separate document: [How to Use the Console Application](./User_Guide.pdf). This guide covers installation, execution, input examples, and troubleshooting.
+For instructions on running this console application, refer to the separate document: [How to Use the Console Application](./User_Guide.md). This guide covers installation, execution, input examples, and troubleshooting.
 
 ## 6. Analysis and Testing
 
@@ -190,7 +165,4 @@ For instructions on running this console application, refer to the separate docu
 - Java Documentation: https://docs.oracle.com/javase/8/docs/api/
 - PlantUML for Flowcharts: https://plantuml.com/
 
-This documentation was last updated on [Insert Date].
-
-Once you've customized this in VS Code, save it, commit/push to your repo if using GitHub, and convert to PDF for submission. If you need the User Documentation content next (e.g., a matching detailed guide), or help with the flowchart image, just let me know!
-```
+This guide was last updated on ![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/your-repo?label=&color=brightgreen&style=flat-square)
